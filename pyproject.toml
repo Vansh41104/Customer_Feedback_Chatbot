@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "customer-feedback-chatbot"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+chainlit = "^1.1.304"
+langchain = "^0.2.5"
+langchain-community = "^0.2.5"
+langchain-openai = "^0.1.9"
+mysqlclient = "^2.2.4"
+chromadb = "^0.5.3"
+psycopg2 = "^2.9.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

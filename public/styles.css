@@ -1,0 +1,20 @@
+.MuiToolbar-root{
+    background-color: #000 !important;
+}
+
+.MuiButtonBase-root{
+    color: #fff !important;
+}
+
+.MuiAvatar-root{
+    color: #000 !important;
+}
+
+/*Show History Button*/
+.css-1deacqj{
+    color: dimgrey !important;
+}
+
+#upload-button{
+    color: dimgrey !important;
+}
