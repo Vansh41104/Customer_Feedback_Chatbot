@@ -46,7 +46,7 @@ ENV VIRTUAL_ENV=/app/.venv \
     PATH="/app/.venv/bin:$PATH"
 
 ENV DATA_SOURCE_URI=mysql+mysqldb://user:password@db/feedback
-ENV OPENAI_API_KEY="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"
+ENV OPENAI_API_KEY=""
 ENV AZURE_OPENAI_API_VERSION=2023-12-01-preview
 ENV AZURE_OPENAI_ENDPOINT=https://kanari-chatbot-instance-us.openai.azure.com/
 ENV AZURE_OPENAI_API_KEY=081c3bc206a440938eac11b62a222bd6
